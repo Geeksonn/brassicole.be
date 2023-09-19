@@ -2,7 +2,7 @@
 	import CountdownElement from './countdownElement.svelte';
 
 	// TODO --> fetch date
-	const date: Date = new Date(Date.UTC(2023, 10, 25, 18, 30, 0));
+	const date: Date = new Date('2023-11-25T16:30:00Z');
 	let daysLeft: number = 0,
 		hoursLeft: number = 0,
 		minutesLeft: number = 0,
@@ -21,7 +21,7 @@
 			)
 		);
 
-		const timeRemaining: number = date.getTime() - dateNowUTC.getTime();
+		const timeRemaining: number = date.getTime() - dateNow.getTime();
 		const seconds: number = Math.floor(timeRemaining / 1000);
 		const minutes: number = Math.floor(seconds / 60);
 		const hours: number = Math.floor(minutes / 60);
@@ -53,5 +53,7 @@
 		<CountdownElement text="minutes" time={minutesLeft} />
 		<CountdownElement text="secondes" time={secondsLeft} />
 	</div>
-	<p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">Jusqu'à la 22<sup>e</sup> édition</p>
+	<p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">
+		Jusqu'à la 22<sup>e</sup> édition
+	</p>
 </div>
