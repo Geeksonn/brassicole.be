@@ -1,4 +1,4 @@
-<nav class="w-full p-3">
+<nav class="w-full px-3 pt-3">
 	<div class="flex items-center max-w-7xl mx-auto">
 		<div class="w-1/6 flex justify-end">
 			<a href="https://www.facebook.com/profile.php?id=100064555039934" target="_blank">
