@@ -2,7 +2,7 @@
 	<p class="text-xl text-brass-green mx-auto">
 		Partagez un repas convivial et profitez d'une bière offerte!
 	</p>
-	<a href="https://forms.gle/dT3Yp9T2sykMiea28" target="_blank" class="mx-auto mt-5">
+	<a href="#">
 		<button class="bg-brass-orange text-center">Inscrivez-vous et recevez votre bière</button>
 	</a>
 </div>
