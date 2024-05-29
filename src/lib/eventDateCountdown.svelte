@@ -2,7 +2,7 @@
 	import CountdownElement from './countdownElement.svelte';
 
 	// TODO --> fetch date
-	const date: Date = new Date('2023-11-25T16:30:00Z');
+	const date: Date = new Date('2024-11-30T16:30:00Z');
 	let daysLeft: number = 0,
 		hoursLeft: number = 0,
 		minutesLeft: number = 0,
@@ -54,6 +54,6 @@
 		<CountdownElement text="secondes" time={secondsLeft} />
 	</div>
 	<p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">
-		Jusqu'à la 22<sup>e</sup> édition
+		Jusqu'à la 23<sup>e</sup> édition
 	</p>
 </div>
