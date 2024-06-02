@@ -1,5 +1,7 @@
 <script lang="ts">
-	import CountdownElement from './countdownElement.svelte';
+	import CountdownElement from "./countdownElement.svelte";
+
+	//import CountdownElement from './countdownElement.svelte';
 
 	// TODO --> fetch date
 	const date: Date = new Date('2024-11-30T16:30:00Z');
@@ -43,17 +45,17 @@
 	};
 </script>
 
-<div class="flex flex-col space-y-6">
-	<p class="mx-auto mb-8 text-brass-orange text-lg font-light tracking-[0.2rem] uppercase">
+<div class="flex flex-col">
+    <p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">
+		23<sup>e</sup> édition
+	</p>
+	<p class="mx-auto mb-12 text-brass-orange text-lg font-light tracking-[0.2rem] uppercase">
 		{new Intl.DateTimeFormat('fr-FR', dateFrmt).format(date)}
 	</p>
-	<div class="flex space-x-20 mx-auto">
+	<div class="flex justify-evenly gap-x-12 mx-auto">
 		<CountdownElement text="jours" time={daysLeft} />
 		<CountdownElement text="heures" time={hoursLeft} />
 		<CountdownElement text="minutes" time={minutesLeft} />
 		<CountdownElement text="secondes" time={secondsLeft} />
 	</div>
-	<p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">
-		Jusqu'à la 23<sup>e</sup> édition
-	</p>
 </div>
