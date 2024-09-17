@@ -5,16 +5,18 @@
     import Footer from '$lib/footer.svelte';
     import FloatingCap from '$lib/floatingCap.svelte';
 	import AppInfo from '$lib/appInfo.svelte';
+	import Meal from '$lib/meal.svelte';
 </script>
 
-<div class="flex flex-col min-h-screen">
+<div class="flex flex-col sm:min-h-screen">
 	<Header />
 	<div class="flex mt-9">
 		<div class="flex flex-col w-2/3 p-3">
 			<EventDateCountdown />
             <div class="w-11/12 h-[1.3px] mx-auto my-5 bg-brass-orange"></div>
             <p class="text-xl text-brass-green mx-auto">Streekbaan 195 1800 Vilvoorde</p>
-            <AddInfo />
+            <!--<AddInfo />-->
+            <Meal />
 		</div>
 		<div class="w-1/3 py-3 pl-3">
 			<AppInfo />
