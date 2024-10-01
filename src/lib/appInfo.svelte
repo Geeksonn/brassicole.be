@@ -1,4 +1,4 @@
-<div class="h-full flex flex-col items-center bg-brass-green rounded-l-3xl p-3">
+<div class="h-full flex flex-col items-center mx-auto bg-brass-green sm:rounded-l-3xl rounded-3xl p-3">
 	<p class="mb-7 text-background text-4xl font-title font-bold text-center">Appicole</p>
 	<img src="/brassicole_mockup_cropped.png" alt="Smartphone" width="300" class="flex-grow" />
 

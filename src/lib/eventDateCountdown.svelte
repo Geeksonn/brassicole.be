@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CountdownElement from "./countdownElement.svelte";
+	import CountdownElement from './countdownElement.svelte';
 
 	//import CountdownElement from './countdownElement.svelte';
 
@@ -45,14 +45,14 @@
 	};
 </script>
 
-<div class="flex flex-col">
-    <p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">
+<div class="flex flex-col items-center">
+	<p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">
 		23<sup>e</sup> édition
 	</p>
 	<p class="mx-auto mb-12 text-brass-orange text-lg font-light tracking-[0.2rem] uppercase">
 		{new Intl.DateTimeFormat('fr-FR', dateFrmt).format(date)}
 	</p>
-	<div class="flex justify-evenly gap-x-12 mx-auto">
+	<div class="flex justify-evenly gap-x-5 sm:gap-x-12 mx-auto">
 		<CountdownElement text="jours" time={daysLeft} />
 		<CountdownElement text="heures" time={hoursLeft} />
 		<CountdownElement text="minutes" time={minutesLeft} />

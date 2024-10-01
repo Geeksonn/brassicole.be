@@ -1,5 +1,5 @@
 <div class="flex flex-col mt-8 pb-6">
-	<p class="text-xl text-brass-green mx-auto">
+	<p class="sm:text-xl text-sm text-center text-brass-green mx-auto">
 		Partagez un repas convivial et profitez d'une bière offerte!
 	</p>
 	<a class="flex justify-center mt-3" href="https://forms.gle/SJUGd26g6wLDYQBy6" target="_blank">

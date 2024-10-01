@@ -19,7 +19,7 @@
 							class="required email"
 							id="mce-EMAIL"
 							required
-							placeholder="Entrez votre adresse email"
+							placeholder="E-mail"
 						/>
 						<span id="mce-EMAIL-HELPERTEXT" class="helper_text" />
 					</div>

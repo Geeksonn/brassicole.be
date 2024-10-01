@@ -2,7 +2,7 @@
 	<div class="mx-auto">
 		<a href="/"> <img src="/brassicoleLogo.svg" alt="brassicole Logo" class="mx-auto" /></a>
 	</div>
-    <div class="flex justify-end gap-x-8 sm:-mt-14 mt-2">
+    <div class="flex justify-center sm:justify-end gap-x-8 sm:-mt-14 mt-2">
         <a
 				href="/about"
 				class="border-2 border-brass-orange rounded-3xl text-brass-orange font-semibold px-5 py-1"

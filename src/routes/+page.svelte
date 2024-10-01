@@ -10,15 +10,15 @@
 
 <div class="flex flex-col sm:min-h-screen">
 	<Header />
-	<div class="flex mt-9">
-		<div class="flex flex-col w-2/3 p-3">
+	<div class="flex flex-col sm:flex-row mt-9">
+		<div class="flex flex-col sm:w-2/3 p-3">
 			<EventDateCountdown />
             <div class="w-11/12 h-[1.3px] mx-auto my-5 bg-brass-orange"></div>
-            <p class="text-xl text-brass-green mx-auto">Streekbaan 195 1800 Vilvoorde</p>
+            <p class="sm:text-xl text-md text-brass-green mx-auto">Streekbaan 195 1800 Vilvoorde</p>
             <!--<AddInfo />-->
             <Meal />
 		</div>
-		<div class="w-1/3 py-3 pl-3">
+		<div class="sm:w-1/3 sm:py-3 sm:pl-3 p-3">
 			<AppInfo />
 		</div>
 	</div>
