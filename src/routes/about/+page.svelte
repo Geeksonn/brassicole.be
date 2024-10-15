@@ -32,5 +32,7 @@
 			l'endroit où la bière est bien plus qu'une simple boisson, c'est une véritable aventure gustative
 			à partager.
 		</p>
+        <h1 class="font-title font-bold text-2xl text-brass-green">Politique de Confidentialité</h1>
+        <p>Consultez notre <a href="https://app.brassicole.be/privacy-policy/" class="underline text-brass-orange">politique de Confidentialité</a>.</p>
 	</div>
 </div>
