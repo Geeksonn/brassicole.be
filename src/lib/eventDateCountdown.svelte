@@ -47,7 +47,7 @@
 
 <div class="flex flex-col items-center">
 	<p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">
-		23<sup>e</sup> édition
+		24<sup>e</sup> édition
 	</p>
 	<p class="mx-auto mb-12 text-brass-orange text-lg font-light tracking-[0.2rem] uppercase">
 		{new Intl.DateTimeFormat('fr-FR', dateFrmt).format(date)}
