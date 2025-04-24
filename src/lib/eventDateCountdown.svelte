@@ -4,7 +4,7 @@
 	//import CountdownElement from './countdownElement.svelte';
 
 	// TODO --> fetch date
-	const date: Date = new Date('2024-11-30T16:30:00Z');
+	const date: Date = new Date('2025-11-29T16:30:00Z');
 	let daysLeft: number = 0,
 		hoursLeft: number = 0,
 		minutesLeft: number = 0,
