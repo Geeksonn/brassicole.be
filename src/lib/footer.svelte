@@ -3,7 +3,7 @@
 </script>
 
 <footer class="flex flex-col w-full mt-auto">
-	<div class="sm:bg-[url('/wave.svg')] sm:h-[40px]" />
+	<div class="sm:bg-[url('/wave.svg')] sm:h-[40px]"></div>
 
 	<div class="flex flex-col gap-y-3 sm:flex-row justify-evenly items-center w-full mx-auto pb-6 bg-white">
 		<div>
