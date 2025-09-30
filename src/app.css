@@ -1,7 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-body {
-	@apply bg-background font-body;
+@theme {
+    --font-body: 'aktiv-grotesk';
+    --font-title: 'new-spirit';
+    
+    --color-background: #f8f3e8;
+    --color-brass-green: #004235;
+    --color-brass-grey: #B1B1B1;
+    --color-brass-orange: #E65E44;
+    --color-brass-pink: #EEA4C8;
+    --color-brass-pill: #F2F2F2;
 }

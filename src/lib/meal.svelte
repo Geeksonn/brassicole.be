@@ -8,6 +8,8 @@
 </div>
 
 <style lang="postcss">
+    @reference '../app.css';
+    
 	button {
 		@apply bg-brass-orange rounded-full;
 		@apply text-center uppercase text-white;

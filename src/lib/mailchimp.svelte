@@ -57,6 +57,7 @@
 </div>
 
 <style lang="postcss">
+    @reference '../app.css';
     .button {
         @apply px-5 py-2 cursor-pointer bg-brass-orange rounded-full;
         @apply font-medium text-white uppercase tracking-widest;
