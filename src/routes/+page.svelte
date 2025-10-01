@@ -14,7 +14,7 @@
 		<div class="flex flex-col sm:w-2/3 p-3">
 			<EventDateCountdown />
             <div class="w-11/12 h-[1.3px] mx-auto my-5 bg-brass-orange"></div>
-            <p class="sm:text-xl text-md text-brass-green mx-auto">Streekbaan 195 1800 Vilvoorde</p>
+            <p class="sm:text-xl text-md text-brass-green mx-auto">Streekbaan 195, 1800 Vilvoorde</p>
             <!--<AddInfo />-->
             <Meal />
 		</div>
