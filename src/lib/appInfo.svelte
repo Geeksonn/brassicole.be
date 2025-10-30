@@ -1,8 +1,8 @@
-<div class="h-full flex flex-col items-center mx-auto bg-brass-green sm:rounded-l-3xl rounded-3xl p-3">
-	<p class="mb-7 text-background text-4xl font-title font-bold text-center">Appicole</p>
+<div class="flex flex-col items-center mx-auto w-[20%] bg-brass-green rounded-3xl p-3">
+	<p class="text-background text-4xl font-title font-bold text-center">Appicole</p>
 	<img src="/brassicole_mockup_cropped.png" alt="Smartphone" width="300" class="flex-grow" />
 
-	<div class="w-full flex justify-evenly items-center">
+	<div class="w-full flex justify-around gap-x-2 items-center">
 		<p class="mt-3 p-3 text-background text-center text-sm">
 			Carte des bières, conseils de dégustation, notation des bières dégustées, activités exclusives
 		</p>

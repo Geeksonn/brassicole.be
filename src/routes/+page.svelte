@@ -1,36 +1,28 @@
 <script>
 	import EventDateCountdown from '$lib/eventDateCountdown.svelte';
 	import Header from '$lib/header.svelte';
-    import AddInfo from '$lib/addInfo.svelte';
-    import Footer from '$lib/footer.svelte';
-    import FloatingCap from '$lib/floatingCap.svelte';
+	import Footer from '$lib/footer.svelte';
 	import AppInfo from '$lib/appInfo.svelte';
 	import Meal from '$lib/meal.svelte';
 </script>
 
-<div class="flex flex-col sm:min-h-screen">
-	<Header />
-	<div class="flex flex-col sm:flex-row mt-9">
-		<div class="flex flex-col sm:w-2/3 p-3">
-			<EventDateCountdown />
-            <div class="w-11/12 h-[1.3px] mx-auto my-5 bg-brass-orange"></div>
-            <p class="sm:text-xl text-md text-brass-green mx-auto">Streekbaan 195, 1800 Vilvoorde</p>
-            <!--<AddInfo />-->
-            <Meal />
-		</div>
-		<div class="sm:w-1/3 sm:py-3 sm:pl-3 p-3">
-			<AppInfo />
-		</div>
+<div class="flex flex-col gap-y-6 pt-6 sm:min-h-screen">
+	<div class="mx-auto">
+		<a href="/"> <img src="/brassicoleLogo.svg" alt="brassicole Logo" class="mx-auto" /></a>
 	</div>
-	<Footer />
-	<!--
-	<div class="flex flex-col overflow-y-scroll">
-		<EventDateCountdown />
-		<img src="/line.svg" alt="vertial line" class="mx-auto my-3" />
-		<p class="text-xl text-brass-green mx-auto">Streekbaan 195 1800 Vilvoorde</p>
-		<!--<Meal />
-        <AddInfo />
+	<EventDateCountdown />
+	<div class="h-7 w-[1px] bg-brass-orange mx-auto"></div>
+	<div class="flex flex-col gap-y-0 items-center">
+		<p class="sm:text-xl text-base text-brass-green mx-auto">Streekbaan 195</p>
+		<p class="sm:text-xl text-base text-brass-green mx-auto">1800 Vilvoorde</p>
 	</div>
+
+	<div class="flex items-center justify-evenly">
+		<AppInfo />
+		<AppInfo />
+		<AppInfo />
+		<AppInfo />
+	</div>
+
 	<Footer />
-	<FloatingCap />-->
 </div>

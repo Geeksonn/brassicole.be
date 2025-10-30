@@ -45,17 +45,17 @@
 	};
 </script>
 
-<div class="flex flex-col items-center">
-	<p class="pt-8 text-brass-green font-title font-bold text-6xl text-center">
-		24<sup>e</sup> édition
-	</p>
-	<p class="mx-auto mb-12 text-brass-orange text-lg font-light tracking-[0.2rem] uppercase">
-		{new Intl.DateTimeFormat('fr-FR', dateFrmt).format(date)}
-	</p>
+<div class="flex flex-col gap-y-7 items-center">
 	<div class="flex justify-evenly gap-x-5 sm:gap-x-12 mx-auto">
 		<CountdownElement text="jours" time={daysLeft} />
 		<CountdownElement text="heures" time={hoursLeft} />
 		<CountdownElement text="minutes" time={minutesLeft} />
 		<CountdownElement text="secondes" time={secondsLeft} />
 	</div>
+	<p class="text-brass-green font-title font-bold text-6xl text-center">
+		Jusqu'à la 25<sup>e</sup> édition
+	</p>
+	<p class="mx-auto text-brass-orange text-2xl font-light tracking-[0.2rem] uppercase">
+		{new Intl.DateTimeFormat('fr-FR', dateFrmt).format(date)}
+	</p>
 </div>
