@@ -5,7 +5,7 @@
 	import InfoCard from '$lib/infoCard.svelte';
 </script>
 
-<div class="flex flex-col gap-y-6 pt-6 sm:min-h-screen">
+<div class="flex flex-col gap-y-6 pt-3 sm:min-h-screen">
 	<Header />
 	<EventDateCountdown />
 	<div class="h-7 w-px bg-brass-orange mx-auto"></div>
@@ -14,7 +14,7 @@
 		<p class="sm:text-xl text-base text-brass-green mx-auto">1800 Vilvoorde</p>
 	</div>
 
-	<div class="flex items-center justify-evenly">
+	<div class="flex items-stretch justify-evenly">
 		<InfoCard
 			bgColor="bg-brass-green"
 			btnColor="bg-brass-pink"
@@ -51,7 +51,7 @@
 			title="Newsletter"
 			imgLink="Newsletter.png"
 			imgAlt="Newsletter"
-			actionLink="https://app.brassicole.be"
+			actionLink="https://brassicole.us16.list-manage.com/subscribe/?u=d1b28b46ef816d6d21357d396&amp;id=95044cc8ba&amp;f_id=006861e0f0"
 			callToAction="Inscrivez-vous"
 			description="Inscrivez-vous à notre newsletter et recevez les dernières informations concernant la Brassicole"
 		/>
