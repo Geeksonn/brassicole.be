@@ -1,36 +1,61 @@
 <script>
 	import EventDateCountdown from '$lib/eventDateCountdown.svelte';
+	import Footer from '$lib/footer.svelte';
 	import Header from '$lib/header.svelte';
-    import AddInfo from '$lib/addInfo.svelte';
-    import Footer from '$lib/footer.svelte';
-    import FloatingCap from '$lib/floatingCap.svelte';
-	import AppInfo from '$lib/appInfo.svelte';
-	import Meal from '$lib/meal.svelte';
+	import InfoCard from '$lib/infoCard.svelte';
 </script>
 
-<div class="flex flex-col sm:min-h-screen">
+<div class="flex flex-col gap-y-6 pt-3 sm:min-h-screen">
 	<Header />
-	<div class="flex flex-col sm:flex-row mt-9">
-		<div class="flex flex-col sm:w-2/3 p-3">
-			<EventDateCountdown />
-            <div class="w-11/12 h-[1.3px] mx-auto my-5 bg-brass-orange"></div>
-            <p class="sm:text-xl text-md text-brass-green mx-auto">Streekbaan 195, 1800 Vilvoorde</p>
-            <!--<AddInfo />-->
-            <Meal />
-		</div>
-		<div class="sm:w-1/3 sm:py-3 sm:pl-3 p-3">
-			<AppInfo />
-		</div>
+	<EventDateCountdown />
+	<div class="h-7 w-px bg-brass-orange mx-auto"></div>
+	<div class="flex flex-col gap-y-0 items-center">
+		<p class="sm:text-xl text-base text-brass-green mx-auto">Streekbaan 195</p>
+		<p class="sm:text-xl text-base text-brass-green mx-auto">1800 Vilvoorde</p>
 	</div>
-	<Footer />
-	<!--
-	<div class="flex flex-col overflow-y-scroll">
-		<EventDateCountdown />
-		<img src="/line.svg" alt="vertial line" class="mx-auto my-3" />
-		<p class="text-xl text-brass-green mx-auto">Streekbaan 195 1800 Vilvoorde</p>
-		<!--<Meal />
-        <AddInfo />
+
+	<div class="flex items-stretch justify-evenly">
+		<InfoCard
+			bgColor="bg-brass-green"
+			btnColor="bg-brass-pink"
+			title="Appicole"
+			imgLink="Appicole.png"
+			imgAlt="Smartphone"
+			actionLink="https://app.brassicole.be"
+			callToAction="Téléchargez-la !"
+			description="Carte des bières, conseils de dégustation, notation des bières dégustées, activités exclusives"
+		/>
+		<InfoCard
+			bgColor="bg-brass-pink"
+			btnColor="bg-brass-orange"
+			title="Repas"
+			imgLink="repas.png"
+			imgAlt="Repas"
+			actionLink="https://forms.gle/8p3s6nS8wGSqY26v8"
+			callToAction="Réservez votre place"
+			description="Partagez un repas convivial et profitez d'une bière offerte !"
+		/>
+		<InfoCard
+			bgColor="bg-brass-yellow"
+			btnColor="bg-brass-green"
+			title="Merch"
+			imgLink="merch.png"
+			imgAlt="Merchandising"
+			actionLink="https://docs.google.com/forms/d/e/1FAIpQLSdy4CVH1YvT48KyJ1OswOzGDYEgbjiWIbss5TPKcmCKJoR-Mw/viewform"
+			callToAction="Commandez vos articles"
+			description="Pour cete édition anniversaire, l'équipe vous offre la possibilité de porter nos couleurs et de soutenir l'événement !"
+		/>
+		<InfoCard
+			bgColor="bg-brass-orange"
+			btnColor="bg-brass-yellow"
+			title="Newsletter"
+			imgLink="Newsletter.png"
+			imgAlt="Newsletter"
+			actionLink="https://brassicole.us16.list-manage.com/subscribe/?u=d1b28b46ef816d6d21357d396&amp;id=95044cc8ba&amp;f_id=006861e0f0"
+			callToAction="Inscrivez-vous"
+			description="Inscrivez-vous à notre newsletter et recevez les dernières informations concernant la Brassicole"
+		/>
 	</div>
+
 	<Footer />
-	<FloatingCap />-->
 </div>

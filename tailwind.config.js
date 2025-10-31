@@ -13,7 +13,7 @@ export default {
 				'brass-grey': '#B1B1B1',
 				'brass-orange': '#E65E44',
 				'brass-pink': '#EEA4C8',
-				'brass-pill': '#F2F2F2'
+                'brass-yellow': '#F59F00'
 			},
 			keyframes: {
 				floating: {
