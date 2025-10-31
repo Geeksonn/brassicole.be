@@ -4,6 +4,7 @@
 	import Footer from '$lib/footer.svelte';
 	import AppInfo from '$lib/appInfo.svelte';
 	import Meal from '$lib/meal.svelte';
+	import InfoCard from '$lib/infoCard.svelte';
 </script>
 
 <div class="flex flex-col gap-y-6 pt-6 sm:min-h-screen">
@@ -18,10 +19,46 @@
 	</div>
 
 	<div class="flex items-center justify-evenly">
-		<AppInfo />
-		<AppInfo />
-		<AppInfo />
-		<AppInfo />
+		<InfoCard
+			bgColor="green"
+			btnColor="pink"
+			title="Appicole"
+			imgLink="Appicole.png"
+			imgAlt="Smartphone"
+			actionLink="https://app.brassicole.be"
+			callToAction="Téléchargez-la !"
+			description="Carte des bières, conseils de dégustation, notation des bières dégustées, activités exclusives"
+		/>
+		<InfoCard
+			bgColor="pink"
+			btnColor="orange"
+			title="Repas"
+			imgLink="repas.png"
+			imgAlt="Repas"
+			actionLink="https://app.brassicole.be"
+			callToAction="Réservez votre place"
+			description="Partagez un repas convivial et profitez d'une bière offerte !"
+		/>
+		<InfoCard
+			bgColor="yellow"
+			btnColor="green"
+			title="Merch"
+			imgLink="merch.png"
+			imgAlt="Merchandising"
+			actionLink="https://app.brassicole.be"
+			callToAction="Commandez vos articles"
+			description="Pour cete édition anniversaire, l'équipe vous offre la possibilité de porter nos couleurs et de soutenir l'événement !"
+		/>
+		<InfoCard
+			bgColor="orange"
+			btnColor="yellow"
+			title="Newsletter"
+			imgLink="Newsletter.png"
+			imgAlt="Newsletter"
+			actionLink="https://app.brassicole.be"
+			callToAction="Inscrivez-vous"
+			description="Inscrivez-vous à notre newsletter et recevez les dernières informations concernant la Brassicole"
+		/>
 	</div>
 
 	<Footer />
