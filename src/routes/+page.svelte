@@ -14,7 +14,7 @@
 		<p class="sm:text-xl text-base text-brass-green mx-auto">1800 Vilvoorde</p>
 	</div>
 
-	<div class="flex flex-col gap-y-2 sm:flex-row items-stretch justify-evenly">
+	<div class="flex flex-col gap-y-4 sm:flex-row items-stretch justify-evenly">
 		<InfoCard
 			bgColor="bg-brass-green"
 			btnColor="bg-brass-pink"
