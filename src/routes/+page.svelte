@@ -5,16 +5,16 @@
 	import InfoCard from '$lib/infoCard.svelte';
 </script>
 
-<div class="flex flex-col gap-y-6 pt-3 sm:min-h-screen">
+<div class="flex flex-col gap-y-4 sm:gap-y-6 pt-3">
 	<Header />
 	<EventDateCountdown />
-	<div class="h-7 w-px bg-brass-orange mx-auto"></div>
+	<div class="h-3 sm:h-7 w-px bg-brass-orange mx-auto"></div>
 	<div class="flex flex-col gap-y-0 items-center">
 		<p class="sm:text-xl text-base text-brass-green mx-auto">Streekbaan 195</p>
 		<p class="sm:text-xl text-base text-brass-green mx-auto">1800 Vilvoorde</p>
 	</div>
 
-	<div class="flex items-stretch justify-evenly">
+	<div class="flex flex-col gap-y-2 sm:flex-row items-stretch justify-evenly">
 		<InfoCard
 			bgColor="bg-brass-green"
 			btnColor="bg-brass-pink"

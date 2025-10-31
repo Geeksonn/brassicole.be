@@ -12,16 +12,6 @@
 
 	const countdown = () => {
 		const dateNow: Date = new Date();
-		const dateNowUTC: Date = new Date(
-			Date.UTC(
-				dateNow.getUTCFullYear(),
-				dateNow.getUTCMonth(),
-				dateNow.getUTCDate(),
-				dateNow.getUTCHours(),
-				dateNow.getUTCMinutes(),
-				dateNow.getUTCSeconds()
-			)
-		);
 
 		const timeRemaining: number = date.getTime() - dateNow.getTime();
 		const seconds: number = Math.floor(timeRemaining / 1000);
@@ -45,17 +35,17 @@
 	};
 </script>
 
-<div class="flex flex-col gap-y-7 items-center">
-	<div class="flex justify-evenly gap-x-5 sm:gap-x-12 mx-auto">
+<div class="flex flex-col gap-y-5 sm:gap-y-7 items-center">
+	<div class="flex justify-evenly gap-x-4 sm:gap-x-12 mx-auto">
 		<CountdownElement text="jours" time={daysLeft} />
 		<CountdownElement text="heures" time={hoursLeft} />
 		<CountdownElement text="minutes" time={minutesLeft} />
 		<CountdownElement text="secondes" time={secondsLeft} />
 	</div>
-	<p class="text-brass-green font-title font-bold text-6xl text-center">
+	<p class="text-brass-green font-title font-bold text-3xl sm:text-6xl text-center">
 		Jusqu'à la 25<sup>e</sup> édition
 	</p>
-	<p class="mx-auto text-brass-orange text-2xl font-light tracking-[0.2rem] uppercase">
+	<p class="mx-auto text-brass-orange text-base sm:text-2xl font-light tracking-[0.2rem] uppercase">
 		{new Intl.DateTimeFormat('fr-FR', dateFrmt).format(date)}
 	</p>
 </div>
