@@ -4,8 +4,8 @@
 </script>
 
 <div class="flex flex-col items-center">
-	<div class="px-2 w-48 text-center">
-		<p class="font-title text-brass-pink text-9xl font-bold">
+	<div class="px-2 w-20 sm:w-48 text-center">
+		<p class="font-title text-brass-pink text-3xl sm:text-9xl font-bold">
 			{time.toString().padStart(2, '0')}
 		</p>
 	</div>
