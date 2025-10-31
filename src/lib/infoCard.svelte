@@ -3,7 +3,7 @@
 		$props();
 </script>
 
-<div class="flex flex-col items-center mx-auto w-[90%] sm:w-[20%] {bgColor} rounded-3xl p-3">
+<div class="flex flex-col items-center mx-auto w-[75%] sm:w-[20%] {bgColor} rounded-3xl p-3">
 	<p class="text-background text-4xl font-title font-bold text-center">{title}</p>
 	<img src="/{imgLink}" alt={imgAlt} class="grow w-[150%] max-w-[150%]" />
 
