@@ -20,7 +20,7 @@
 			Si vous rencontrez des problèmes ou avez des questions concernant l'utilisation de l'appicole,
 			n'hésitez pas à nous contacter. Nous sommes là pour vous aider et nous assurer que votre
 			expérience avec notre application soit aussi agréable que possible. Vous pouvez nous envoyer
-			un e-mail à <a href="mailto:olivier@geekson.be">olivier@geekson.be</a>.
+			un e-mail à <a href="mailto:olivier@geekson.be" class="underline text-brass-orange">olivier@geekson.be</a>.
 		</p>
 		<h1 class="font-title font-bold text-2xl text-brass-green">Politique de Confidentialité</h1>
 		<p>
