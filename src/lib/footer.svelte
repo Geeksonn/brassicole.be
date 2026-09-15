@@ -8,7 +8,7 @@
 	<div class="flex gap-x-3 items-center">
         <FooterLink link='/about' label='à propos' />
 		<p class='font-body text-sm uppercase text-brass-green tracking-wide'>•</p>
-        <FooterLink link='https://app.brassicole.be/privacy-policy/' label='politique de confidentialité' />
+        <FooterLink link='/privacy-policy' label='politique de confidentialité' />
 	</div>
 	<a
 		href="https://www.facebook.com/profile.php?id=100064555039934"

@@ -1,6 +1,14 @@
 <script>
-	let { bgColor, title, imgLink, imgAlt, description, callToAction, btnColor, actionLink } =
-		$props();
+	let {
+		bgColor,
+		title,
+		imgLink,
+		imgAlt,
+		description,
+		callToAction,
+		btnColor,
+		actionLink = undefined
+	} = $props();
 </script>
 
 <div class="flex flex-col items-center mx-auto w-[80%] sm:w-[20%] {bgColor} rounded-3xl p-3">
