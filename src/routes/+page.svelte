@@ -21,8 +21,7 @@
 			title="Appicole"
 			imgLink="Appicole.png"
 			imgAlt="Smartphone"
-			actionLink="https://app.brassicole.be"
-			callToAction="Téléchargez-la !"
+			callToAction="Bientôt une nouvelle version"
 			description="Carte des bières, conseils de dégustation, notation des bières dégustées, activités exclusives"
 		/>
 		<InfoCard
@@ -31,7 +30,7 @@
 			title="Repas"
 			imgLink="repas.png"
 			imgAlt="Repas"
-			actionLink="https://forms.gle/8p3s6nS8wGSqY26v8"
+			actionLink="https://forms.gle/Tf5s5yjnM172k2NK9"
 			callToAction="Réservez votre place"
 			description="Partagez un repas convivial et profitez d'une bière offerte !"
 		/>
@@ -41,8 +40,7 @@
 			title="Merch"
 			imgLink="merch.png"
 			imgAlt="Merchandising"
-			actionLink="https://docs.google.com/forms/d/e/1FAIpQLSdy4CVH1YvT48KyJ1OswOzGDYEgbjiWIbss5TPKcmCKJoR-Mw/viewform"
-			callToAction="Commandez vos articles"
+			callToAction="Bientôt, des nouveaux articles"
 			description="Pour cete édition anniversaire, l'équipe vous offre la possibilité de porter nos couleurs et de soutenir l'événement !"
 		/>
 		<InfoCard

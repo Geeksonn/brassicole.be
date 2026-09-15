@@ -13,11 +13,19 @@
 		</p>
 	</div>
 
-	<a
-		target="_blank"
-		href={actionLink}
-		class="mt-8 py-3 w-11/12 mx-6 {btnColor} font-title text-background font-semibold rounded-4xl text-center"
-	>
-		{callToAction}
-	</a>
+	{#if actionLink}
+		<a
+			target="_blank"
+			href={actionLink}
+			class="mt-8 py-3 w-11/12 mx-6 {btnColor} font-title text-background font-semibold rounded-4xl text-center"
+		>
+			{callToAction}
+		</a>
+	{:else}
+		<p
+			class="mt-8 py-3 w-11/12 mx-6 bg-gray-400 opacity-60 font-title text-background font-semibold rounded-4xl text-center cursor-not-allowed"
+		>
+			{callToAction}
+		</p>
+	{/if}
 </div>
