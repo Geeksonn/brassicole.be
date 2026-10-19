@@ -21,7 +21,9 @@
 			title="Appicole"
 			imgLink="Appicole.png"
 			imgAlt="Smartphone"
-			callToAction="Bientôt une nouvelle version"
+			actionLink="/app"
+			external={false}
+			callToAction="Télécharger l'app"
 			description="Carte des bières, conseils de dégustation, notation des bières dégustées, activités exclusives"
 		/>
 		<InfoCard

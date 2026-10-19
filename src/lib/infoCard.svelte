@@ -7,7 +7,8 @@
 		description,
 		callToAction,
 		btnColor,
-		actionLink = undefined
+		actionLink = undefined,
+		external = true
 	} = $props();
 </script>
 
@@ -23,7 +24,7 @@
 
 	{#if actionLink}
 		<a
-			target="_blank"
+			target={external ? '_blank' : undefined}
 			href={actionLink}
 			class="mt-8 py-3 w-11/12 mx-6 {btnColor} font-title text-background font-semibold rounded-4xl text-center"
 		>
