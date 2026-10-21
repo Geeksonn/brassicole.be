@@ -42,7 +42,8 @@
 			title="Merch"
 			imgLink="merch.png"
 			imgAlt="Merchandising"
-			callToAction="Bientôt, des nouveaux articles"
+			actionLink="https://docs.google.com/forms/d/e/1FAIpQLScjIsQKQuBTdoW9SuPsuSD4T5KhNsG-PCdO3T-YnArJ6NiW8w/viewform"
+			callToAction="Commandez vos articles"
 			description="Pour cete édition anniversaire, l'équipe vous offre la possibilité de porter nos couleurs et de soutenir l'événement !"
 		/>
 		<InfoCard
